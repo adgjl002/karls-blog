@@ -1,0 +1,38 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "starsnonscss"
+;
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+hr {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.container-404 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 200px);
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
