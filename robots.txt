@@ -1,2 +1,4 @@
 User-agent: *
+Allow: /
+
 Sitemap: https://adgjl002.github.io/karls-blog/sitemap.xml
