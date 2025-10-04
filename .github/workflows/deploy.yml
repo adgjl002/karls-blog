@@ -46,7 +46,7 @@ jobs:
           gem install bundler -v "~> 2.4"
           ruby -v && gem -v && bundle -v
       - name: Install dependencies
-        run: bundle install --path vendor/bundle
+        run: bundle install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
