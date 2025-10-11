@@ -883,6 +883,14 @@ iframe {
     .share {
         margin-top: 30px;
     }
+    .flex-column {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 15px;
+    }
+    .share-bottom {
+        display: none;
+    }
 }
 
 .card .img-fluid {
