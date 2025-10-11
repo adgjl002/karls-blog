@@ -4,6 +4,7 @@ title: "Karl's Blog"
 description: "다양한 책들을 소개하는 블로그입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
+url: 'https://karls.dev3530.com'
 baseurl: ''
 google_analytics: 'G-817YW8LLP0'
 disqus: 'karls-blog'
