@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adgjl002.github.io/karls-blog/sitemap.xml
+Sitemap: https://karls.dev3530.com/sitemap.xml

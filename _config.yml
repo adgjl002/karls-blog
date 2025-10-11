@@ -4,7 +4,7 @@ title: "Karl's Blog"
 description: "다양한 책들을 소개하는 블로그입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/karls-blog'
+baseurl: ''
 google_analytics: 'G-817YW8LLP0'
 disqus: 'karls-blog'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -18,8 +18,8 @@ authors:
     display_name: Karl
     avatar: 'assets/images/profile.webp'
     email: adgjl70000@gmail.com
-    web: https://adgjl002.github.io/karls-blog
-    twitter: https://adgjl002.github.io/karls-blog
+    web: https://karls.dev3530.com
+    twitter: https://karls.dev3530.com
     description: ""
 
 # Plugins
