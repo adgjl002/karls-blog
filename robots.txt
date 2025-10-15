@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://karls.dev3530.com/sitemap.xml
+
+#DaumWebMasterTool:2c1d5179a97a8f0fc661391aaad03fca115cb4e2f48eed35d93ead9165782682:GXTtM1ndW/srOkh9xDyvAQ==
