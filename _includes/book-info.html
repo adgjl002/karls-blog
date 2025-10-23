@@ -1,0 +1,22 @@
+{% if page.book and page.book.title and page.book.purchase_link %}
+<div 
+    style="max-width: 450px; display: flex; border: 1px solid #e0e0e0; border-radius: 6px; padding: 1px; margin: 30px 0 60px 0; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: pointer;" 
+    onclick="window.open('{{ page.book.purchase_link }}', '_blank')"
+>
+  <div style="flex: 0 0 96px;">
+    <img src="/{{ page.image }}" alt="{{ page.book.title }}" style="width: 100%; height: auto; border-radius: 3px;">
+  </div>
+  <div style="flex: 1; padding: 20px;">
+    <h3 style="margin: 0 0 12px 0; font-size: 16px; font-weight: bold; color: #333; line-height: 1.4;">{{ page.book.title }}</h3>
+    <p style="margin: 3px 0; font-size: 12px; color: #666;">
+      <span style="color: #999; padding-right: 5px;">저자</span> {{ page.book.author }}
+    </p>
+    <p style="margin: 3px 0; font-size: 12px; color: #666;">
+      <span style="color: #999; padding-right: 5px;">출판</span> {{ page.book.publisher }}
+    </p>
+    <p style="margin: 3px 0; font-size: 12px; color: #666;">
+      <span style="color: #999; padding-right: 5px;">발매</span> {{ page.book.release_date }}
+    </p>
+  </div>
+</div>
+{% endif %}
