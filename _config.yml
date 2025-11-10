@@ -1,6 +1,6 @@
 # Site
 name: "Karl's Blog"
-title: "Karl's Blog"
+# title: "Karl's Blog"
 description: "다양한 책들을 소개하는 블로그입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -40,7 +40,7 @@ plugins:
 #     category: '/category/:name/'
     
 # Pagination 
-paginate: 9
+paginate: 6
 paginate_path: /page/:num/
     
 # Other
@@ -66,5 +66,9 @@ defaults:
       path: "page" # Adjust this to match the directory of your paginated pages
     values:
       sitemap: false
+  # - scope:
+  #     type: "pages" # Exclude all pages in _pages directory from sitemap
+  #   values:
+  #     sitemap: false
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, googleea2af36e51592b6b.html, naver5d8d9beeb26d37b37b3c330244bea7b4.html]
