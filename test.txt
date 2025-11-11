@@ -20,6 +20,16 @@ function main() {
     }
 }
 
+function something() {
+    try {
+        console.log('something! awsome!!');
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
 function backup() {
     try {
         console.log('backup! yes!!');
