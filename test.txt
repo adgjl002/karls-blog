@@ -40,6 +40,16 @@ function backup() {
     }
 }
 
+function awsome() {
+    try {
+        console.log('awsome!! amazing!!!');
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
 function test(input = 0) {
     try {
         let msg = '...';
