@@ -1,0 +1,72 @@
+PR 테스트 진행합니다.
+
+function main() {
+    try {
+        const a = 'abc';
+        const b = 'bcs';
+
+        let result = '';
+        if (a === b) {
+            result = 'a와 b는 동일하다';
+        }
+        else {
+            result = 'a와 b는 다르가!!!!';
+        }
+        return result;
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
+function something() {
+    try {
+        console.log('something! awsome!!');
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
+function backup() {
+    try {
+        console.log('backup! yes!!');
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
+function awsome() {
+    try {
+        console.log('awsome!! amazing!!!');
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
+function test(input = 0) {
+    try {
+        let msg = '...';
+
+        if (input === 0) {
+            meg = '뭣이 중헌디!!';
+        }
+        else {
+            msg = '그라믄 안돼~ 혼 좀 내줘야쓰것네~';
+        }
+        return msg;
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
+main();
+test(1);
