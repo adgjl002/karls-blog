@@ -20,6 +20,16 @@ function main() {
     }
 }
 
+function backup() {
+    try {
+        console.log('backup! yes!!');
+    }
+    catch (err) {
+        console.error(err);
+        throw err;
+    }
+}
+
 function test(input = 0) {
     try {
         let msg = '...';
