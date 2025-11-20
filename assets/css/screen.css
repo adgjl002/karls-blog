@@ -6,8 +6,8 @@ License: https://www.wowthemes.net/freebies-license/
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container { 
-        max-width: 1080px;
-        width: 80%;
+        max-width: 1340px;
+        width: 90%;
     }
 }
 .mainheading {
